@@ -7,6 +7,6 @@ function setup(){
     stroke(0,0,255)
   }
   else{stroke(255,0,0)}
-  ellipse(width/2,height/2,(i+1)*10);
+  ellipse(width/2,height/2,(i+1)*10);//直径
   }
 }

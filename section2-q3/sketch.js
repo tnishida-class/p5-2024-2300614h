@@ -35,7 +35,7 @@ function drawArcs(c1, c2, r) {
   for (let i = 0; i < 20; i++) {
     let start = TWO_PI / 20 * i;
     let stop = TWO_PI / 20 * (i + 1);
-    fill(i % 2 === 0 ? c1 : c2);
+    fill(i % 2 === 0 ? c1 : c2);//偶数番目にはc1,それ以外はc2
     arc(cx, cy, r, r, start, stop, PIE);
   }
 }

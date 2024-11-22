@@ -21,7 +21,7 @@ function setup() {
   rect(0, 0, size, size);
 
   fill(255);
-  rect(d*2, 0, d, size)
-  rect(0, d*2, size, d)
+  rect(d*2, 0, d, size)//縦
+  rect(0, d*2, size, d)//横
   // BLANK[2] (hint: 白い十字を描くには rect を二つ描こう)
 }
